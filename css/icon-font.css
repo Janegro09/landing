@@ -10,6 +10,15 @@
   font-weight: normal;
   font-style: normal;
 
+  font-family: "linea-ecommerce-10";
+  src:url("fonts/linea-ecommerce-10.eot");
+  src:url("fonts/linea-ecommerce-10.eot?#iefix") format("embedded-opentype"),
+    url("fonts/linea-ecommerce-10.woff") format("woff"),
+    url("fonts/linea-ecommerce-10.ttf") format("truetype"),
+    url("fonts/linea-ecommerce-10.svg#linea-ecommerce-10") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
 }
 
 [data-icon]:before {
@@ -443,3 +452,4 @@
 .icon-basic-world:before {
   content: "\e028";
 }
+
