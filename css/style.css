@@ -1381,7 +1381,7 @@ body{
 }
 .footer__logo-box{
     text-align:center;
-    margin-bottom:8rem
+    margin-bottom:4rem
 }
 @media only screen and (max-width: 56.25em){
     .footer__logo-box{
@@ -1749,7 +1749,7 @@ body{
 .section-book{
     padding:15rem 0;
     background-image:-webkit-gradient(linear, left top, right bottom, from(#7ed56f), to(#28b485));
-    background-image:linear-gradient(to right bottom, #7ed56f, #28b485)
+    background-image: linear-gradient(to right bottom, #ff7730, rgb(185 255 48 / 26%))
 }
 @media only screen and (max-width: 56.25em){
     .section-book{
