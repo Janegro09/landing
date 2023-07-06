@@ -618,7 +618,7 @@ body{
     text-transform: uppercase;
     font-weight: 700;
     display: inline-block;
-    background-image: -webkit-gradient(linear, left top, right top, from(#7ed56f), to(#28b485));
+    background-image: -webkit-gradient(linear, left top, right top, from(#d56f6f), to(#b46028));
     background-image: linear-gradient(to right, #d56f6f, #b46028);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -1067,7 +1067,7 @@ body{
     font-size:6rem;
     margin-bottom:.5rem;
     display:inline-block;
-    background-image:-webkit-gradient(linear, left top, right top, from(#7ed56f), to(#28b485));
+    background-image:-webkit-gradient(linear, left top, right top, from(#ff7730), to(#28b485));
     background-image:linear-gradient(to right, #ff7730, rgb(115 39 0 / 85%));
     -webkit-background-clip:text;
     color:transparent
@@ -1534,7 +1534,7 @@ body{
 }
 .header{
     height:85vh;
-    background-image:-webkit-gradient(linear, left top, right bottom, from(rgba(126,213,111,0.8)), to(rgba(40,180,133,0.8))),url(../img/hero-small.jpg);
+    background-image:-webkit-gradient(linear, left top, right bottom, from(rgba(129, 129, 129, 0.8)), to(rgba(40,180,133,0.8))),url(../img/hero-small.jpg);
     background-image:linear-gradient(to right bottom, #ff7730c2, rgb(255 119 48 / 25%)),url(../img/hero-small.jpg);
     
     background-size:cover;
@@ -1551,7 +1551,7 @@ body{
 @media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em), only screen and (min-resolution: 192dpi) and (min-width: 37.5em), only screen and (min-width: 125em){
     .header{
         background-image:-webkit-gradient(linear, left top, right bottom, from(rgba(126,213,111,0.8)), to(rgba(40,180,133,0.8))),url(../img/hero.jpg);
-        background-image:linear-gradient(to right bottom, rgba(126,213,111,0.8), rgba(40,180,133,0.8)),url(../img/hero.jpg)
+        background-image:linear-gradient(to right bottom, #ff7730c2, rgb(255 119 48 / 25%)),url(../img/hero-small.jpg)
     }
 }
 @media only screen and (max-width: 37.5em){
