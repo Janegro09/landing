@@ -530,7 +530,8 @@
     box-sizing:inherit
 }
 html{
-    font-size:62.5%
+    font-size:62.5%;
+    scroll-behavior: smooth;
 }
 @media only screen and (max-width: 75em){
     html{
@@ -1278,7 +1279,7 @@ body{
 .popup__img{
     display:block;
     width:100%;
-    margin-top:6%
+    margin-top:10%
 }
 .popup:target{
     opacity:1;
