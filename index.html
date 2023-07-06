@@ -27,11 +27,11 @@
 
             <nav class="navigation__nav">
                 <ul class="navigation__list">
-                    <li class="navigation__item"><a href="#" class="navigation__link"><span>01</span>Inicio</a></li>
-                    <li class="navigation__item"><a href="#section-about" class="navigation__link"><span>02</span>MISION VISION</a></li>
-                    <li class="navigation__item"><a href="#section-features" class="navigation__link"><span>03</span>¿Que es el MÉTODO AGRO?</a></li>
-                    <li class="navigation__item"><a href="#section-tours" class="navigation__link"><span>04</span>Nuestros Planes</a></li>
-                    <li class="navigation__item"><a href="#section-book" class="navigation__link"><span>05</span>Contacto</a></li>
+                    <li class="navigation__item"><a href="#" class="navigation__link" onclick="activarCheck()"><span>01</span>Inicio</a></li>
+                    <li class="navigation__item"><a href="#section-about" class="navigation__link" onclick="activarCheck()"><span>02</span>MISION VISION</a></li>
+                    <li class="navigation__item"><a href="#section-features" class="navigation__link" onclick="activarCheck()"><span>03</span>¿Que es el MÉTODO AGRO?</a></li>
+                    <li class="navigation__item"><a href="#section-tours" class="navigation__link" onclick="activarCheck()"><span>04</span>Nuestros Planes</a></li>
+                    <li class="navigation__item"><a href="#section-book" class="navigation__link" onclick="activarCheck()"><span>05</span>Contacto</a></li>
                     </ul>
             </nav>
         </div>
@@ -64,12 +64,12 @@
                     <div class="col-1-of-2">
                         <h3 class="heading-tertiary u-margin-bottom-small">Misión</h3>
                         <p class="paragraph">
-                            En METODO AGRO SA, nos dedicamos a brindar soluciones innovadoras de inversión en el sector agropecuario, con el objetivo de hacer accesible esta actividad a todos los inversores. Nos comprometemos a garantizar rentabilidad y transparencia en todas nuestras operaciones, para que todos los inversores se sientan seguros y confiados en su inversión en el campo argentino. También buscamos generar lazos y alianzas estratégicas con nuestros inversores fomentando la fidelidad y confianza mutua.
+                            En MÉTODO AGRO SA, nos dedicamos a brindar soluciones innovadoras de inversión en el sector agropecuario, con el objetivo de hacer accesible esta actividad a todos los inversores. Nos comprometemos a garantizar rentabilidad y transparencia en todas nuestras operaciones, para que todos los inversores se sientan seguros y confiados en su inversión en el campo argentino. También buscamos generar lazos y alianzas estratégicas con nuestros inversores fomentando la fidelidad y confianza mutua.
                         </p>
 
                         <h3 class="heading-tertiary u-margin-bottom-small">Visión</h3>
                         <p class="paragraph">
-                            En METODO AGRO SA, queremos ser la sociedad líder en el manejo de inversiones en el sector agropecuario, reconocidos por nuestra excelencia en el servicio al cliente, la transparencia y el rendimiento. Nos esforzamos por ser la mejor opción de inversión para aquellos inversores que buscan una opción rentable y segura en el campo argentino, contribuyendo así al desarrollo sostenible del sector agropecuario en el país.
+                            En MÉTODO AGRO SA, queremos ser la sociedad líder en el manejo de inversiones en el sector agropecuario, reconocidos por nuestra excelencia en el servicio al cliente, la transparencia y el rendimiento. Nos esforzamos por ser la mejor opción de inversión para aquellos inversores que buscan una opción rentable y segura en el campo argentino, contribuyendo así al desarrollo sostenible del sector agropecuario en el país.
                         </p>
                         <p></p>
                         <!-- <a href="#" class="btn-text">Learn more &rarr;</a> -->
@@ -134,8 +134,9 @@
                             <!-- <i class="feature-box__icon icon-ecommerce-graph-increase"></i> -->
                             <h3 class="heading-tertiary u-margin-bottom-small">Inversiones Ganaderas</h3>
                              <p class="feature-box__text">
-                                Desde Método Agro analizamos diariamente las ofertas del mercado, los valores de compra y venta en decenas de remates, para aprovechas al máximo cada oportunidad.
-                            </p><br><br><br>
+                                Desde Método Agro analizamos diariamente las ofertas del mercado, los valores de compra y venta en decenas de remates, para aprovechas al máximo cada oportunidad.<br><br><br>
+                                Inversiones en agricultura: PRÓXIMAMENTE
+                            </p><br>
                         </div>
                     </div>
 
@@ -151,14 +152,14 @@
                 </div>
             </section>
 
-            <section class="section-tours" id="section-tours">
+            <section class="section-tours" >
                 <div class="u-center-text u-margin-bottom-big">
                     <h2 class="heading-secondary">
                         Nuestros Planes
+                        <span id="section-tours"></span>
                     </h2>
                 </div>
-
-                <div class="row">
+                <div class="row" >
                     <div class="col-1-of-4">
                        <div class="card">
                            <div class="card__side card__side--front">
@@ -437,7 +438,7 @@
         </footer>
 
         <div class="popup" id="popup1">
-            <div class="popup__content">
+            <div class="popup__content content-1">
                 <div class="popup__left">
                     <img src="img/metodo_agro.jpg" alt="Tour photo" class="popup__img">
                     <img src="img/nat-5.jpg" alt="Tour photo" class="popup__img">
@@ -460,7 +461,7 @@
         </div>
 
         <div class="popup" id="popup2">
-            <div class="popup__content">
+            <div class="popup__content content-2">
                 <div class="popup__left">
                     <img src="img/metodo_agro.jpg" alt="Tour photo" class="popup__img">
                     <img src="img/nat-6.jpg" alt="Tour photo" class="popup__img">
@@ -483,7 +484,7 @@
         </div>
 
         <div class="popup" id="popup3">
-            <div class="popup__content">
+            <div class="popup__content content-3">
                 <div class="popup__left">
                     <img src="img/metodo_agro.jpg" alt="Tour photo" class="popup__img">
                     <img src="img/nat-7.jpg" alt="Tour photo" class="popup__img">
@@ -506,7 +507,7 @@
         </div>
 
         <div class="popup" id="popup4">
-            <div class="popup__content">
+            <div class="popup__content content-4">
                 <div class="popup__left">
                     <img src="img/metodo-agro.jpg" alt="Tour photo" class="popup__img">
                     <img src="img/nat-7-5.jpg" alt="Tour photo" class="popup__img">
@@ -529,6 +530,13 @@
                 </div>
             </div>
         </div>
+        <script>
+            function activarCheck() {
+                // class="navigation__checkbox" id="navi-toggle"
+                var checkbox = document.getElementById("navi-toggle");
+                checkbox.checked = false;
+            }
+        </script>
         <!--
         <section class="grid-test">
             <div class="row">
